@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "id": "google",
+      "label": "Google Workspace",
+      "status": "placeholder"
+    },
+    {
+      "id": "microsoft",
+      "label": "Microsoft 365",
+      "status": "placeholder"
+    },
+    {
+      "id": "supabase",
+      "label": "Supabase",
+      "status": "placeholder"
+    }
+  ]
+}

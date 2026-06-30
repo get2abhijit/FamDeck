@@ -1,0 +1,9 @@
+{
+  "appName": "FamDeck",
+  "brandTagline": "Config-driven shell",
+  "sidebarCollapsedByDefault": false,
+  "sidebarStorageKey": "famdeck-sidebar-collapsed",
+  "enableSearch": true,
+  "defaultRoute": "/",
+  "showFooter": true
+}

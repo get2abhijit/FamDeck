@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "eyebrow": "Configuration-first home base",
+    "title": "Your shared operating system, shaped by config.",
+    "description": "FamDeck starts as a lightweight launchpad and is designed to grow into widgets, providers, and AI without changing the page structure."
+  },
+  "stats": [
+    {
+      "label": "Configured surfaces",
+      "value": "12",
+      "note": "Placeholder architecture only"
+    },
+    {
+      "label": "Provider slots",
+      "value": "8",
+      "note": "Ready for external integrations"
+    },
+    {
+      "label": "Theme modes",
+      "value": "3",
+      "note": "Light, dark, and system"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Navigation from JSON",
+      "description": "The sidebar is generated from configuration rather than hardcoded routes."
+    },
+    {
+      "title": "Shell over features",
+      "description": "This foundation focuses on layout, theming, and routing only."
+    },
+    {
+      "title": "Future-ready layers",
+      "description": "Widgets and providers can slot in without rethinking the app hierarchy."
+    }
+  ]
+}

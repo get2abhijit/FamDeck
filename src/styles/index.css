@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --color-surface: 241 245 249;
+    --color-panel: 255 255 255;
+    --color-text: 15 23 42;
+    --color-muted: 71 85 105;
+    --color-border: 226 232 240;
+    --color-accent: 14 165 233;
+    --font-sans: 'Manrope', sans-serif;
+    --font-display: 'Space Grotesk', sans-serif;
+  }
+
+  .dark {
+    color-scheme: dark;
+    --color-surface: 2 6 23;
+    --color-panel: 15 23 42;
+    --color-text: 248 250 252;
+    --color-muted: 148 163 184;
+    --color-border: 30 41 59;
+    --color-accent: 56 189 248;
+  }
+
+  html {
+    min-height: 100%;
+    background: rgb(var(--color-surface));
+  }
+
+  body {
+    min-height: 100vh;
+    color: rgb(var(--color-text));
+    font-family: var(--font-sans);
+    background-image:
+      radial-gradient(circle at top left, rgba(56, 189, 248, 0.16), transparent 28%),
+      radial-gradient(circle at top right, rgba(148, 163, 184, 0.12), transparent 24%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.45), transparent 22%);
+    background-attachment: fixed;
+  }
+
+  .dark body {
+    background-image:
+      radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 28%),
+      radial-gradient(circle at top right, rgba(30, 41, 59, 0.45), transparent 22%),
+      linear-gradient(180deg, rgba(15, 23, 42, 0.88), transparent 25%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+  }
+
+  ::selection {
+    background: rgba(56, 189, 248, 0.28);
+    color: rgb(var(--color-text));
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "widgets": [
+    {
+      "id": "today",
+      "title": "Today",
+      "description": "Agenda, reminders, and essential actions"
+    },
+    {
+      "id": "status",
+      "title": "Status",
+      "description": "Service health and shared systems"
+    },
+    {
+      "id": "links",
+      "title": "Links",
+      "description": "Frequently used destinations"
+    }
+  ]
+}

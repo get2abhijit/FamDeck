@@ -1,0 +1,89 @@
+{
+  "brand": "FamDeck",
+  "items": [
+    {
+      "id": "dashboard",
+      "label": "Dashboard",
+      "path": "/",
+      "icon": "LayoutDashboard",
+      "description": "Overview and quick access"
+    },
+    {
+      "id": "family",
+      "label": "Family",
+      "path": "/family",
+      "icon": "Users",
+      "description": "People and shared context"
+    },
+    {
+      "id": "calendar",
+      "label": "Calendar",
+      "path": "/calendar",
+      "icon": "CalendarDays",
+      "description": "Schedules and events"
+    },
+    {
+      "id": "documents",
+      "label": "Documents",
+      "path": "/documents",
+      "icon": "FolderKanban",
+      "description": "Files, links, and records"
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "path": "/finance",
+      "icon": "Landmark",
+      "description": "Budgets and accounts"
+    },
+    {
+      "id": "health",
+      "label": "Health",
+      "path": "/health",
+      "icon": "HeartPulse",
+      "description": "Wellness and care"
+    },
+    {
+      "id": "travel",
+      "label": "Travel",
+      "path": "/travel",
+      "icon": "PlaneTakeoff",
+      "description": "Trips and logistics"
+    },
+    {
+      "id": "photos",
+      "label": "Photos",
+      "path": "/photos",
+      "icon": "Image",
+      "description": "Shared memories and galleries"
+    },
+    {
+      "id": "knowledge",
+      "label": "Knowledge",
+      "path": "/knowledge",
+      "icon": "BookOpenText",
+      "description": "Reference notes and guides"
+    },
+    {
+      "id": "tasks",
+      "label": "Tasks",
+      "path": "/tasks",
+      "icon": "SquareCheckBig",
+      "description": "Shared actions and follow-up"
+    },
+    {
+      "id": "emergency",
+      "label": "Emergency",
+      "path": "/emergency",
+      "icon": "ShieldAlert",
+      "description": "Critical information and contacts"
+    },
+    {
+      "id": "settings",
+      "label": "Settings",
+      "path": "/settings",
+      "icon": "Settings",
+      "description": "System preferences"
+    }
+  ]
+}

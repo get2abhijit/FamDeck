@@ -1,0 +1,6 @@
+{
+  "defaultMode": "system",
+  "storageKey": "famdeck-theme",
+  "brandColor": "#38bdf8",
+  "modeOptions": ["light", "dark", "system"]
+}
