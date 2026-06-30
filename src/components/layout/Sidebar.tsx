@@ -1,8 +1,10 @@
 import { ChevronLeft, ChevronRight, PanelLeftClose, PanelLeftOpen } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 
-import navigation from '@/config/navigation.json';
-import settings from '@/config/settings.json';
+import { appConfig } from '@/config';
+
+const navigation = appConfig.navigation;
+const settings = appConfig.settings;
 import { Card } from '@/components/ui/Card';
 import { getNavigationIcon } from '@/utils/navigation';
 import { cn } from '@/utils/cn';

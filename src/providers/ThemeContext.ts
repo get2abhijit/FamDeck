@@ -1,10 +1,11 @@
 import { createContext, useContext } from 'react';
+import type { ThemeMode, ResolvedThemeMode } from '@/config/types/theme';
 
-export type ThemeMode = 'light' | 'dark' | 'system';
+export type { ThemeMode, ResolvedThemeMode };
 
 export interface ThemeContextValue {
   mode: ThemeMode;
-  resolvedMode: Exclude<ThemeMode, 'system'>;
+  resolvedMode: ResolvedThemeMode;
   setMode: (mode: ThemeMode) => void;
 }
 

@@ -1,7 +1,6 @@
-import dashboard from '@/config/dashboard.json';
-import links from '@/config/links.json';
-import providers from '@/config/providers.json';
-import widgets from '@/config/widgets.json';
+import { appConfig } from '@/config';
+
+const { dashboard, links, providers, widgets } = appConfig;
 import { Card } from '@/components/ui/Card';
 import { createPlaceholderPage } from '@/components/templates/PlaceholderPageFactory';
 

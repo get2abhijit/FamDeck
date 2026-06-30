@@ -1,9 +1,12 @@
 import { useEffect, useState, type ReactNode } from 'react';
 
-import themeConfig from '@/config/theme.json';
-import { ThemeContext, type ThemeMode } from '@/providers/ThemeContext';
+import { appConfig } from '@/config';
+import type { ResolvedThemeMode, ThemeMode } from '@/config/types/theme';
+import { ThemeContext } from '@/providers/ThemeContext';
 
-function getSystemTheme(): Exclude<ThemeMode, 'system'> {
+const themeConfig = appConfig.theme;
+
+function getSystemTheme(): ResolvedThemeMode {
   if (typeof window === 'undefined') {
     return 'light';
   }
@@ -27,7 +30,7 @@ function getStoredTheme(storageKey: string): ThemeMode {
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [mode, setMode] = useState<ThemeMode>(() => getStoredTheme(themeConfig.storageKey));
-  const resolvedMode: Exclude<ThemeMode, 'system'> = mode === 'system' ? getSystemTheme() : mode;
+  const resolvedMode: ResolvedThemeMode = mode === 'system' ? getSystemTheme() : mode;
 
   useEffect(() => {
     const root = document.documentElement;

@@ -1,7 +1,9 @@
 import { Menu } from 'lucide-react';
 
-import family from '@/config/family.json';
-import settings from '@/config/settings.json';
+import { appConfig } from '@/config';
+
+const family = appConfig.family;
+const settings = appConfig.settings;
 import { Breadcrumb } from '@/components/layout/Breadcrumb';
 import { SearchInput } from '@/components/ui/SearchInput';
 import { ThemeToggle } from '@/components/ui/ThemeToggle';

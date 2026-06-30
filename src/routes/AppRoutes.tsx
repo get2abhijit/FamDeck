@@ -1,8 +1,10 @@
 import { lazy, Suspense, type ComponentType } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 
-import navigation from '@/config/navigation.json';
-import settings from '@/config/settings.json';
+import { appConfig } from '@/config';
+
+const navigation = appConfig.navigation;
+const settings = appConfig.settings;
 import { AppLayout } from '@/components/layout/AppLayout';
 import { pageLoaders } from '@/routes/pageLoaders';
 
